@@ -5,7 +5,8 @@
              x:Class="MauiToolkitStatusBarBehaviorSample.MainPage">
 
     <Page.Behaviors>
-        <mct:StatusBarBehavior x:Name="statusBar" />
+        <!--  doesn't work  -->
+        <mct:StatusBarBehavior StatusBarColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" StatusBarStyle="{AppThemeBinding Light=DarkContent, Dark=LightContent}" />
     </Page.Behaviors>
     
     <ScrollView>

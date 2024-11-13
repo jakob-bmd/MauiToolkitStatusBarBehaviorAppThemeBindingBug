@@ -7,17 +7,10 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-
-		statusBar.StatusBarColor = Colors.Pink;
-        statusBar.StatusBarStyle = CommunityToolkit.Maui.Core.StatusBarStyle.DarkContent;
-
     }
 
     private void OnCounterClicked(object sender, EventArgs e)
 	{
-        //statusBar.StatusBarColor = Colors.Red;
-        //statusBar.StatusBarStyle = CommunityToolkit.Maui.Core.StatusBarStyle.LightContent;
-
 		Navigation.PushAsync(new ContentPage());
 
         count++;
