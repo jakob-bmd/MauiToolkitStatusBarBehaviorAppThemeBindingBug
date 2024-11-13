@@ -1,4 +1,4 @@
-[![YouTube Video Views](https://img.shields.io/youtube/views/dWj0PdImH10?style=social)](https://www.youtube.com/watch?v=dWj0PdImH10&list=PLfbOp004UaYWu-meDkRN6_Y1verl96npI)
+# .NET MAUI Community Toolkit StatusBarBehavior AppThemeBinding Bug Sample
+ Sample code to demonstrate how changing the status bar color in .NET MAUI using the .NET MAUI Community Toolkit doesn't work when using AppThemeBinding
 
-# .NET MAUI Community Toolkit StatusBarBehavior Sample
- Sample code to demonstrate how to change the status bar color in .NET MAUI using the .NET MAUI Community Toolkit
+Created for https://github.com/CommunityToolkit/Maui/issues/2306
